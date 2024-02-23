@@ -181,16 +181,16 @@ $value in $responsive {
   }
 }
 
-@each $size,
-$value in $responsive {
-  @media (min-width: #{$value}px) {
-    @for $i from 1 through 1000 {
-      .height-#{$size}-#{$i} {
-        height: #{$i}px !important;
-      }
-    }
-  }
-}
+// @each $size,
+// $value in $responsive {
+//   @media (min-width: #{$value}px) {
+//     @for $i from 1 through 1000 {
+//       .height-#{$size}-#{$i} {
+//         height: #{$i}px !important;
+//       }
+//     }
+//   }
+// }
 
 @for $i from 1 through 100 {
 
@@ -535,4 +535,8 @@ $value in $responsive {
   padding: 5px 0;
   cursor: pointer;
   border-radius: 4px;
+}
+
+button:disabled{
+  cursor: not-allowed;
 }

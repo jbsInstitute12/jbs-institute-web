@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import Logo from "../../assets/images/logo.png"
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import Logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -14,31 +14,41 @@ const Footer = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
   return (
-    <section id='Footer' className='bg-fourth'>
+    <section id="Footer" className="bg-fourth">
       <div className="container">
         <div className="mainFooter text-lg-start text-center">
           <div className="row justify-content-lg-between justify-content-center align-items-center">
             <div className="col-lg-4 col-12">
               <div className="logo m0-sm-y m-auto">
-                <Link to="/"><img src={Logo} alt="JBS LOGO" /></Link>
+                <Link to="/">
+                  <img src={Logo} alt="JBS LOGO" />
+                </Link>
               </div>
-              <p className='m20-top text-gray fw-500 m30-bottom'>Unlock your potential with us, where education meets innovation. Our institution empowers students with cutting-edge knowledge and skills.</p>
-              <h5 className=''>About US</h5>
-              <p className='m20-top text-gray fw-500 m30-bottom'>Jbs It Institute is leading computer training institute in surat. We offers government approved computer training courses in Surat.</p>
+              <p className="m20-top text-gray fw-500 m30-bottom">
+                Unlock your potential with us, where education meets innovation.
+                Our institution empowers students with cutting-edge knowledge
+                and skills.
+              </p>
+              {/* <h5 className="">About US</h5>
+              <p className="m20-top text-gray fw-500 m30-bottom">
+                Jbs It Institute is leading computer training institute in
+                surat. We offers government approved computer training courses
+                in Surat.
+              </p> */}
             </div>
             <div className="col-lg-7  col-12 order-lg-0 order-md-1">
               <div className="row justify-content-center">
@@ -63,7 +73,7 @@ const Footer = () => {
                   <h5>Courses</h5>
                   <ul className="aboutUs m0 p50-top ">
                     <li>
-                      <Link to="/androidDevelopment">  Android Development</Link>
+                      <Link to="/androidDevelopment"> Android Development</Link>
                     </li>
                     <li>
                       <Link to="/webdevelopment"> Web Development</Link>
@@ -83,17 +93,29 @@ const Footer = () => {
                   <h5>Contact Us</h5>
                   <ul className="aboutUs m0 p0 p50-top">
                     <li>
-                      <div className="icon"><i class="fas fa-map-marker-alt"></i></div>
-                      <div className="adress"> F-38 City center, Yogi Chowk, Varachha, Surat, Gujarat 395010</div>
-                    </li>
-                    <li>
-                      <div className="icon"><i class="fas fa-envelope"></i></div>
-                      <div className="email">
-                        <Link to="mailto:jbsit01@gmail.com">jbsit01@gmail.com</Link>
+                      <div className="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                      </div>
+                      <div className="adress">
+                        {" "}
+                        F-38 City center, Yogi Chowk, Varachha, Surat, Gujarat
+                        395010
                       </div>
                     </li>
                     <li>
-                      <div className="icon"><i class="fas fa-phone"></i></div>
+                      <div className="icon">
+                        <i class="fas fa-envelope"></i>
+                      </div>
+                      <div className="email">
+                        <Link to="mailto:jbsit01@gmail.com">
+                          jbsit01@gmail.com
+                        </Link>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="icon">
+                        <i class="fas fa-phone"></i>
+                      </div>
                       <div className="phone">
                         <Link to="tel:+91 79844 43901">+91 79844 43901</Link>
                         <Link to="tel:+91 98752 63080">+91 98752 63080</Link>
@@ -106,12 +128,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="aboutFooter bg-prime text-light p10">
+      <div className="aboutFooter bg-prime text-light p10 border-top border">
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col-12">
-              <p>
-                Copyright@ 2023 Jbs It Institute. All Rights Reserved. </p>
+              <p>Copyright@ 2023 Jbs It Institute. All Rights Reserved. </p>
             </div>
           </div>
         </div>
@@ -126,6 +147,5 @@ const Footer = () => {
     </section>
   );
 };
-
 
 export default Footer;

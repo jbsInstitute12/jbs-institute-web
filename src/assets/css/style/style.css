@@ -35,12 +35,12 @@
 }
 
 .middleHeader {
-  box-shadow: 0 5px 24px rgba(0, 0, 0, 0.5215686275);
+  /* box-shadow: 0 5px 24px rgba(0, 0, 0, 0.5215686275);
   backdrop-filter: blur(8px) saturate(300%);
-  -webkit-backdrop-filter: blur(8px) saturate(300%);
-  background-color: rgba(135, 135, 135, 0.5294117647);
-  border: 1px solid rgba(209, 213, 219, 0.3);
-  position: relative;
+  -webkit-backdrop-filter: blur(8px) saturate(300%); */
+  background-color: #fff;
+  /* border: 1px solid rgba(209, 213, 219, 0.3);
+  position: relative; */
 }
 
 .processmain-wrapper {
@@ -130,7 +130,7 @@
 }
 
 .mainNavigation .mainMenu li span {
-  color: #ffffff;
+  color: #4a6f8a;
   transition: 0.3s;
   cursor: pointer;
   font-size: 20px;
@@ -139,9 +139,9 @@
 
 .mainNavigation .mainMenu li span .headText {
   border-bottom: solid 2px transparent;
-  transition: 0.3s;
+  transition: 0.2s;
   line-height: 50px;
-  color: #ffffff;
+  color: #4a6f8a;
 }
 
 @media screen and (max-width: 1200px) {
@@ -155,8 +155,8 @@
 }
 
 .mainNavigation .mainMenu li:hover>span .headText {
-  border-color: #D46615;
-  color: #D46615;
+  border-color: #EA8721;
+  color: #EA8721;
 }
 
 .mainNavigation .mainMenu li:hover>span .headText span {
@@ -425,13 +425,7 @@
   z-index: 2;
 }
 
-.lowerDesign {
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  z-index: 2;
-  width: 100%;
-}
+
 
 #Slider .owl-carousel .owl-item.active .bannerText {
   animation-name: fadeInDown;
@@ -587,7 +581,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5019607843);
+  /* background-color: rgba(0, 0, 0, 0.5019607843); */
 }
 
 .pageTitleBanner .pageTitleBox {
@@ -595,6 +589,48 @@
   z-index: 3;
 }
 
+.pageTitleBanner .pageTitleBox .bar{
+  background: #e29b53;
+    border-radius: 30px;
+    height: 5px;
+    margin: 10px auto;
+    position: relative;
+    width: 120px;
+}
+
+.pageTitleBanner .pageTitleBox .bar::before{
+ 
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    background: #D46615;
+    border-radius: 50%;
+    content: "";
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: -4.7px;
+    width: 15px;
+
+}
+@keyframes MOVE-BG {
+  0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+  }
+
+  to {
+      -webkit-transform: translateX(88px);
+      transform: translateX(110px)
+  }
+}
 #serviceSection {
   position: relative;
 }
@@ -703,10 +739,10 @@
 
 #Footer .mainFooter h5 {
   font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #D46615;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #0e314c;
   position: relative;
   display: inline;
 }
@@ -718,7 +754,7 @@
   left: 50%;
   height: 2px;
   width: 70%;
-  background-color: #D46615;
+  background-color: #0e314c;
   transform: translate(-50%);
 }
 
@@ -729,8 +765,13 @@
 
 #Footer .mainFooter .aboutUs li {
   padding-bottom: 15px;
-  color: #b1b1b1;
+  color: #6084a4 !important;
   font-weight: 600;
+}
+
+.mainFooter .aboutUs li a:hover {
+  color: #EA8721 !important;
+  padding-left: 7px;
 }
 
 #Footer .mainFooter .emailSubmit {
@@ -787,6 +828,7 @@
   #aboutSection .mainAbout {
     padding: 50px 0;
   }
+ 
 }
 
 #aboutSection .mainAbout .itPhotos .imgs {
@@ -1455,13 +1497,7 @@
   background-color: #EFEFEF;
 }
 
-.contactUsPage .mainSlider {
-  background-image: url("../../images/map.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  position: relative;
-}
+
 
 .contactUsPage .mainSlider .innerContact {
   position: absolute;
@@ -1507,6 +1543,8 @@
   color: #D46615;
 }
 
+
+
 /*# sourceMappingURL=style.css.map */
 
 
@@ -1518,7 +1556,7 @@
 
 .aboutUs li .icon i {
   font-size: 20px;
-  color: #D46615;
+  color: #6084a4;
   text-align: center;
 }
 
@@ -1531,14 +1569,14 @@
 #Footer .mainFooter .aboutUs li .phone {
   font-size: 14px;
   padding-left: 15px;
-  color: #000;
+  color: #6084a4;
   text-align: left;
   font-weight: 400;
 }
 
 #Footer .mainFooter .aboutUs li .phone a {
   display: block;
-  color: #000;
+  color: #6084a4;
 }
 
 @media(max-width:479px) {
@@ -2051,9 +2089,28 @@
 
 .innerPages {
   width: 100%;
-  height: 100vh;
+  height: 400px !important;
   background-size: cover;
-  background-image: url('../../images//extraBanner.png');
+  /* background-image: url('../../images//extraBanner.png'); */
 }
 
-/* ===MobileMenu== */
+/* ===========CONTACT================ */
+.contact-outer{
+  /* padding: 50px 0; */
+  /* background-color: #f6f8f8; */
+  background-color: #fff;
+}
+
+.form-control {
+  background-color: #ececec !important;
+}
+
+.form-control:focus {
+
+  box-shadow:none !important;
+  border-color:#e6e7e8 !important ;
+}
+
+.form-control:focus-visible {
+  border:none !important;
+}
