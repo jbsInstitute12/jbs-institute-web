@@ -28,7 +28,7 @@ const Footer = () => {
     });
   };
   return (
-    <section id="Footer" className="bg-fourth">
+    <section id="Footer" style={{ background: "#f7fafd" }}>
       <div className="container">
         <div className="mainFooter text-lg-start text-center">
           <div className="row justify-content-lg-between justify-content-center align-items-center">

@@ -17,7 +17,7 @@ function SubscribeNewsletter() {
       }, []);
     return (
         <>
-           <div className="subscribe-outer">
+           {/* <div className="subscribe-outer">
                     <div className="container">
                         <div className="subscribe-inner Subscribe_bg">
                             <div className="news-block">
@@ -39,7 +39,7 @@ function SubscribeNewsletter() {
                             </div>
                         </div>
                     </div>
-                </div>
+            </div> */}
         </>
     )
 }

@@ -32,6 +32,7 @@ const Header = () => {
 
     return () => window.removeEventListener("scroll", onScroll);
   });
+
   // const navigate = useNavigate();
   // const handleLogout = () => {
   //   const data = warning();
@@ -65,79 +66,13 @@ const Header = () => {
     <>
       <MenuScript />
       <div className="mainHeader">
-        {/* <div className="upperHeader bg-md-transparent bg-prime">
-          <div className="container">
-            <div className="row align-content-center text-light">
-              <div className="col-lg-5 col-md-6 col-12 m0 align-self-center">
-                <div className="headNumber fw-600 text-lg-start text-center">
-                  <span><Link to="tel:+91 79844 43901" style={{ color: '#fff' }}>+91 79844 43901</Link></span>
-                  <span><Link to="tel:+91 98752 63080" style={{ color: '#fff' }}>+91 98752 63080</Link></span>
-                </div>
-              </div>
-              <div className="col-lg-7 col-md-6 col-12 m0">
-                <div className="sideHeader d-flex justify-content-lg-end justify-content-center">
-                  <div className="headInfo d-flex align-items-center border-right-light-2">
-                    <div className="infoIcon hw-xl-25 hw-20">
-                      <img src={Mail} alt="Mail" />
-                    </div>
-                    <div className="infoText m10-left fs-lg-16 fs-sm-14 fs-12 d-lg-block d-none">
-                      <Link to="mailto:jbsit01@gmail.com" style={{ color: '#fff' }}>jbsit01@gmail.com</Link>
-                    </div>
-                  </div>
-                  <div className="headInfo">
-                    <div className="infoIcon hw-xl-25 hw-20">
-                      <Link to="">
-                        <img src={Linkdin} alt="Linkdin" />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="headInfo">
-                    <div className="infoIcon hw-xl-25 hw-20">
-                      <Link to="https://www.facebook.com/profile.php?id=100094207180164&mibextid=JRoKGi" target="_blank">
-                        <img src={Facebook} alt="Facebook" />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="headInfo">
-                    <div className="infoIcon hw-xl-25 hw-20">
-                      <Link to="https://wa.me/+919875263080" target="_blank">
-                        <img src={Whatsapp} alt="Whatsapp" />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="headInfo">
-                    <div className="infoIcon hw-xl-25 hw-20">
-                      <Link to="https://twitter.com/i/flow/login?redirect_after_login=%2FInstituteJ88555">
-                        <img src={Twitter} alt="Twitter" />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="headInfo">
-                    <div className="infoIcon hw-xl-25 hw-20">
-                      <Link to="https://www.instagram.com/jbs_it_institute?utm_source=qr" target="_blank">
-                        <img src={Instagram} alt="Instagram" />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="headInfo">
-                    <div className="infoIcon hw-xl-25 hw-20">
-                      <Link to="https://www.google.com/search?q=jbs+institute+surat&sca_esv=593723253&rlz=1C1JJTC_enIN1052IN1053&sxsrf=AM9HkKlCRENC7y0KD-xAouU1kbZF01XvLg%3A1703582297499&ei=WZqKZc2NHpvb4-EPkOiXsAU&gs_ssp=eJzj4tVP1zc0zDaxyCuOT6oyYLRSNagwTko1MEkzNDVNNkhMsTSytDKosDRPsjQ2tjBKTE0xN0g2TvQSzkoqVsjMKy7JLCktSVUoLi1KLAEALnwW_g&oq=jbs+institute&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWpicyBpbnN0aXR1dGUqAggAMg0QLhjHARivARiwAxgnMgcQIxiwAxgnMgcQIxiwAxgnMgcQIxiwAxgnMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADSN4IUABYAHABeAGQAQCYAQCgAQCqAQC4AQHIAQDiAwQYACBBiAYBkAYK&sclient=gws-wiz-serp">
-                        <img src={Google} alt="Google" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className={`middleHeader ${stopNav} font-prime`}>
           <div className="container position-relative">
             <div className="logoHeader row  justify-content-between align-items-center">
               <div className="col-xl-2 col-3 d-flex justify-content-xl-start justify-content-lg-center  align-items-center">
-                <div className="logo p-3">
+                <div className="logo ">
                   <Link to="/">
-                    <img src={Logo} alt="JBS LOGO" />
+                    <img src={Logo} alt="JBS LOGO" className="w-50" />
                   </Link>
                 </div>
               </div>

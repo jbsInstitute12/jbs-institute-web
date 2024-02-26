@@ -20,11 +20,13 @@ function Scrollable() {
         };
     }, []);
     return (
-        <div>
-            <div className="processmain-wrapper">
-                <div className="processMainstyle" style={{ width: `${scrollTop}%` }}></div>
-            </div>
-        </div>
+        <>
+        </>
+        // <div>
+        //     <div className="processmain-wrapper">
+        //         <div className="processMainstyle" style={{ width: `${scrollTop}%` }}></div>
+        //     </div>
+        // </div>
     )
 }
 

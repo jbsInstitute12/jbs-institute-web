@@ -1,13 +1,182 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --color1: #0F172A;
+    --color2: #555577;
+    --color3: #F7FAFD;
+    --color4: #F8F9FC;
+    --color5: #4A4A68;
+    --color6: #686868;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: 'Montserrat';
+}
+
+.middleHeader {
+
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+/* =========Slider============ */
+.slider-outer {
+    display: block;
+    width: 100%;
+}
+
+.slider-outer .slider-image {
+    position: relative;
+}
+
+.slider-outer .slider-image img {
+    width: 100%;
+    height: 750px;
+
+}
+
+.slider-outer .slider-image .slider-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.slider-outer .slider-image .slider-content h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    color: var(--color1);
+}
+
+.slider-outer .slider-image .slider-content .text-1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: var(--color1);
+    font-weight: 600;
+}
+
+.slider-outer .slider-image .slider-content p {
+    color: var(--color2);
+    font-size: 16px;
+    letter-spacing: 1.3px;
+}
+
+.slider-outer .owl-nav {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    transform: translate(-10%);
+}
+
+@media(max-width:1200px) {
+    .slider-outer .slider-image .slider-content {
+        width: 100%;
+    }
+}
+
+@media(max-width:640px) {
+    .slider-outer .slider-image img {
+        height: 500px;
+    }
+
+    .slider-outer .slider-image .slider-content h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .slider-outer .slider-image .slider-content .text-1 {
+        font-size: 18px;
+    }
+
+    .slider-outer .slider-image .slider-content p {
+        font-size: 12px;
+        letter-spacing: 1.2px;
+    }
+
+}
+
+/* ===========Services============== */
+.our-service-outer {
+    padding: 50px 0;
+}
+
+#serviceSection #ourServices .stratService .servicesBox .iconPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: radial-gradient(#F1F5F9, #D5E1EE 85%);
+    stroke-width: 1px;
+    stroke: #000;
+    border-radius: 50%;
+    box-shadow: -10px 4px 10px 0px rgba(105, 131, 135, 0.176) inset;
+    border: 2px dashed #000000;
+    transform: translate(50%, -50%);
+}
+
+#serviceSection #ourServices .stratService .servicesBox .iconPart::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    border-top: 2px var(--color1) solid;
+    border-right: 2px var(--color1) solid;
+    transform: scale(1.2);
+}
+
+
+#serviceSection #ourServices .stratService .servicesBox .detailsPart {
+    padding: 30px;
+    padding-top: 30px;
+
+}
+
+#serviceSection #ourServices .stratService .servicesBox .detailsPart .service-title {
+    color: var(--color5);
+}
+
+
+#serviceSection #ourServices .stratService .servicesBox .detailsPart p {
+    line-height: normal;
+    letter-spacing: 0.85px;
+    color: var(--color6);
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+
+}
+
+#serviceSection #ourServices .stratService .servicesBox .detailsPart a {
+    margin-top: 15px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--color6);
+    font-weight: bold;
+}
+
+#serviceSection #ourServices .stratService .servicesBox .detailsPart a span {
+    display: flex;
+    align-items: center;
+}
+
+#serviceSection #ourServices .stratService .servicesBox {
+    position: relative;
+    margin: auto;
+}
+
+#serviceSection #ourServices .servicesBox {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    max-width: 320px;
+    max-height: 320px;
+    background: var(--color4);
+    box-shadow: -3px -3px 10px 0px #DCDAE4 inset;
+    border-radius: 10px;
 }

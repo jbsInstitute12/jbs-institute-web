@@ -503,9 +503,9 @@
   background-color: #A5A5A5 !important;
 }
 
-.bg-fourth {
+/* .bg-fourth {
   background-color: #f7fafd !important;
-}
+} */
 
 .bg-dark {
   background-color: #000000 !important;
@@ -80946,7 +80946,7 @@
 .col-3 {
   flex: 0 0 auto;
   width: 25%;
-  margin-bottom: 5px;
+  margin: 5px 0;
 }
 
 .col-2 {

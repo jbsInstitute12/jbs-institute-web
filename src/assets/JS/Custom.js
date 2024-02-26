@@ -1,4 +1,5 @@
 $('.bannerImage').ripples({
-    dropRadius: 15,
-    perturbance: 0.02
-  });
+  resolution: 256,
+  perturbance: 0.01,
+  dropRadius: 25,
+});
