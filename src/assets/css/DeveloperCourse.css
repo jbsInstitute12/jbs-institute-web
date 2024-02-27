@@ -313,10 +313,14 @@
 .inqury-form-outer {
     width: 100%;
     padding: 40px;
-    background: #e2c8b5;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #F4FAFE;
     border-radius: 10px;
+    /* Inner Shadow */
+    box-shadow: inset 2px 2px 15px 0px rgba(0,0,0,0.15);
+    /* Outer Shadow */
+    filter: drop-shadow(2px 2px 15px rgba(0,0,0,0.15));
 }
+
 @media(max-width:479px){
     .inqury-form-outer{
         padding:10px;
@@ -331,7 +335,7 @@
 .inqury-form-outer .form-label {
     font-size: 15px;
     margin-bottom: 8px;
-    color: #fff;
+    color: #000;
 }
 
 .inqury-form-outer .input-group .input-group-text {

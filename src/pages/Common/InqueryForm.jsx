@@ -142,12 +142,11 @@ function InqueryForm() {
         <>
             <div className="inqury-form-outer">
                 <form method="POST" onSubmit={handleSubmit}>
-
                     <div className="col-lg-12">
                         <label for="firstname" class="form-label">First Name</label>
                         <div className="input-group mb-3">
                             <span className="input-group-text"><i class="fas fa-user"></i></span>
-                            <input type="text" className="form-control" placeholder="First Name"
+                            <input type="text"  className="form-control_1" placeholder="First Name"
                                 name="firstName"
                                 id="firstName"
                                 value={formData.firstName}

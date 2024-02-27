@@ -1,23 +1,23 @@
 import React from "react";
-import img1 from "../../assets/images/programming/java.jpg";
-import img2 from "../../assets/images/Course/programming/android.jpg";
-import img3 from "../../assets/images/Course/programming/ios.jpg";
-import img4 from "../../assets/images/Course/programming/react.jpg";
-import img5 from "../../assets/images/Course/programming/node.jpg";
-import img6 from "../../assets/images/Course/programming/angular.jpg";
-import img7 from "../../assets/images/Course/programming/php.jpg";
-import img9 from "../../assets/images/Course/programming/wordpress.jpg";
-import img10 from "../../assets/images/Course/programming/react.jpg";
-import img11 from "../../assets/images/Course/programming/c.jpg";
-import img12 from "../../assets/images/Course/programming/c++.jpg";
-import img13 from "../../assets/images/Course/programming/ccc.jpg";
-import img14 from "../../assets/images/Course/programming/python.jpg";
-import img15 from "../../assets/images/Course/programming/flutter.jpg";
-import img16 from "../../assets/images/Course/programming/bootstrap.jpg";
-import img17 from "../../assets/images/Course/programming/html5css3.jpg";
-import img19 from "../../assets/images/Course/programming/photoshop.jpg";
-import img20 from "../../assets/images/Course/programming//illustrator.jpg";
-import img21 from "../../assets/images/Course/programming/corel.jpg";
+import img1 from "../../assets/images/programming/java.png";
+import img2 from "../../assets/images/Course/programming/android.png";
+import img3 from "../../assets/images/Course/programming/ios.png";
+import img4 from "../../assets/images/Course/programming/react.png";
+import img5 from "../../assets/images/Course/programming/node.png";
+import img6 from "../../assets/images/Course/programming/angular.png";
+import img7 from "../../assets/images/Course/programming/php.png";
+import img9 from "../../assets/images/Course/programming/wordpress.png";
+import img10 from "../../assets/images/Course/programming/react.png";
+import img11 from "../../assets/images/Course/programming/c.png";
+import img12 from "../../assets/images/Course/programming/c++.png";
+import img13 from "../../assets/images/Course/programming/ccc.png";
+import img14 from "../../assets/images/Course/programming/python.png";
+import img15 from "../../assets/images/Course/programming/flutter.png";
+import img16 from "../../assets/images/Course/programming/bootstrap.png";
+import img17 from "../../assets/images/Course/programming/html5css3.png";
+import img19 from "../../assets/images/Course/programming/photoshop.png";
+import img20 from "../../assets/images/Course/programming//illustrator.png";
+import img21 from "../../assets/images/Course/programming/corel.png";
 import { Link } from "react-router-dom";
 import PageTitle from "../Common/PageTitle";
 
@@ -82,7 +82,7 @@ function Course() {
                   <div className="col-lg-4 col-md-4 col-sm-6 col-6 ">
                     <Link to="/javaprogramming">
                       <div className="item-inner">
-                        <img src={img1} alt="img1" className="img-fluid" />
+                        <img src={img1} alt="img1" className="img-fluid " />
                       </div>
                       <div className="titles">Java</div>
                     </Link>
@@ -91,7 +91,7 @@ function Course() {
                   <div className=" col-lg-4 col-md-4 col-sm-6 col-6">
                     <Link to="/androidDevelopment">
                       <div className="item-inner">
-                        <img src={img2} alt="img1" className="img-fluid" />
+                        <img src={img2} alt="img1" className="img-fluid " />
                       </div>
                       <div className="titles">Andriod</div>
                     </Link>
@@ -112,7 +112,7 @@ function Course() {
                       <div className="item-inner">
                         <img src={img4} alt="img1" />
                       </div>
-                      <div className="titles">Reactr Js</div>
+                      <div className="titles">React Js</div>
                     </Link>
                   </div>
                   <div className="col-lg-4 col-md-4 col-sm-6 col-6">

@@ -1982,6 +1982,10 @@
 }
 
 /* ===========course =============== */
+
+.course-outer {
+  background-color: rgb(243 246 250 / 52%);
+}
 .course-content {
   display: block;
   width: 100%;
@@ -2047,22 +2051,50 @@
   background-color: #fff;
   border-radius: 0.4rem;
   transition: all 0.5s ease;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.item-inner {
-  /* background: #d46615;
-  color: #fff; */
-  transition: all 0.5s ease-in-out;
+/* .item-inner:hover {
+  animation-direction: alternate;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-name: bg-transition;
+  animation-timing-function: linear;
 }
 
-.item-inner img {
-  border-radius: 2px;
-}
-
-/* .course .image:hover .item-inner img {
-  border-radius: 2px;
+@keyframes bg-transition {
+  0% {
+    background-color: #8d1c1c;
+    background: #8d1c1c;
+    border-color: #8d1c1c;
+  }
+  20% {
+    background-color: #fb3c9b;
+    background: #fb3c9b;
+    border-color: #fb3c9b;
+  }
+  40% {
+    background-color: #34a43c;
+    background: #34a43c;
+    border-color: #34a43c;
+  }
+  60% {
+    background-color: #6d0efb;
+    background: #6d0efb;
+    border-color: #6d0efb;
+  }
+  80% {
+    background-color: #f37414;
+    background: #f37414;
+    border-color: #f37414;
+  }
+  100% {
+    background-color: #8d1c1c;
+    background: #8d1c1c;
+    border-color: #8d1c1c;
+  }
 } */
+
 .hending {
   line-height: 1.35;
 }
@@ -2071,6 +2103,7 @@
   color: #000;
   text-align: center;
   font-size: 16px;
+  font-weight: 600;
 }
 
 .read-more-text {
