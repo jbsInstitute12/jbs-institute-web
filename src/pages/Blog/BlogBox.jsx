@@ -9,7 +9,7 @@ function BlogBox({ item }) {
         <div>
             <div className="card">
                 <div className="image">
-                    <img src={item.image} alt="" />
+                    <img className='img-1' src={item.image} alt="" />
                 </div>
             </div>
             <div className="card-body">

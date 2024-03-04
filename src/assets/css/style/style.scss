@@ -829,137 +829,137 @@
 
     background-color: $fourth;
 
-    & .itPhotos {
-      & .imgs {
-        position: relative;
+    // & .itPhotos {
+    //   & .imgs {
+    //     position: relative;
 
-        &.img1 {
-          transform: translate(0, 30px);
-          position: relative;
-          z-index: 2;
+    //     &.img1 {
+    //       transform: translate(0, 30px);
+    //       position: relative;
+    //       z-index: 2;
 
-          &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: calc(100% + 35px);
-            height: 3px;
-            background-color: $prime;
+    //       &::before {
+    //         content: "";
+    //         position: absolute;
+    //         top: 0;
+    //         right: 0;
+    //         width: calc(100% + 35px);
+    //         height: 3px;
+    //         background-color: $prime;
 
-            @include maxMediaQuery($md) {
-              width: calc(100% + 20px);
-            }
-          }
+    //         @include maxMediaQuery($md) {
+    //           width: calc(100% + 20px);
+    //         }
+    //       }
 
-          &::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            height: calc(100% + 35px);
-            width: 3px;
-            background-color: $prime;
+    //       &::after {
+    //         content: "";
+    //         position: absolute;
+    //         bottom: 0;
+    //         left: 0;
+    //         height: calc(100% + 35px);
+    //         width: 3px;
+    //         background-color: $prime;
 
-            @include maxMediaQuery($md) {
-              height: calc(100% + 20px);
-            }
-          }
-        }
+    //         @include maxMediaQuery($md) {
+    //           height: calc(100% + 20px);
+    //         }
+    //       }
+    //     }
 
-        &.img2 {
-          &::before {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: calc(100% + 35px);
-            height: 3px;
-            background-color: $prime;
+    //     &.img2 {
+    //       &::before {
+    //         content: "";
+    //         position: absolute;
+    //         bottom: 0;
+    //         left: 0;
+    //         width: calc(100% + 35px);
+    //         height: 3px;
+    //         background-color: $prime;
 
-            @include maxMediaQuery($md) {
-              width: calc(100% + 20px);
-            }
-          }
+    //         @include maxMediaQuery($md) {
+    //           width: calc(100% + 20px);
+    //         }
+    //       }
 
-          &::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            height: calc(100% + 35px);
-            width: 3px;
-            background-color: $prime;
+    //       &::after {
+    //         content: "";
+    //         position: absolute;
+    //         bottom: 0;
+    //         left: 0;
+    //         height: calc(100% + 35px);
+    //         width: 3px;
+    //         background-color: $prime;
 
-            @include maxMediaQuery($md) {
-              height: calc(100% + 20px);
-            }
-          }
-        }
+    //         @include maxMediaQuery($md) {
+    //           height: calc(100% + 20px);
+    //         }
+    //       }
+    //     }
 
-        &.img3 {
-          transform: translate(0, 30px);
+    //     &.img3 {
+    //       transform: translate(0, 30px);
 
-          &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: calc(100% + 35px);
-            height: 3px;
-            background-color: $prime;
+    //       &::before {
+    //         content: "";
+    //         position: absolute;
+    //         top: 0;
+    //         right: 0;
+    //         width: calc(100% + 35px);
+    //         height: 3px;
+    //         background-color: $prime;
 
-            @include maxMediaQuery($md) {
-              width: calc(100% + 20px);
-            }
-          }
+    //         @include maxMediaQuery($md) {
+    //           width: calc(100% + 20px);
+    //         }
+    //       }
 
-          &::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            height: calc(100% + 35px);
-            width: 3px;
-            background-color: $prime;
+    //       &::after {
+    //         content: "";
+    //         position: absolute;
+    //         top: 0;
+    //         right: 0;
+    //         height: calc(100% + 35px);
+    //         width: 3px;
+    //         background-color: $prime;
 
-            @include maxMediaQuery($md) {
-              height: calc(100% + 20px);
-            }
-          }
-        }
+    //         @include maxMediaQuery($md) {
+    //           height: calc(100% + 20px);
+    //         }
+    //       }
+    //     }
 
-        &.img4 {
-          &::before {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: calc(100% + 35px);
-            height: 3px;
-            background-color: $prime;
+    //     &.img4 {
+    //       &::before {
+    //         content: "";
+    //         position: absolute;
+    //         bottom: 0;
+    //         left: 0;
+    //         width: calc(100% + 35px);
+    //         height: 3px;
+    //         background-color: $prime;
 
-            @include maxMediaQuery($md) {
-              width: calc(100% + 20px);
-            }
-          }
+    //         @include maxMediaQuery($md) {
+    //           width: calc(100% + 20px);
+    //         }
+    //       }
 
-          &::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            height: calc(100% + 35px);
-            width: 3px;
-            background-color: $prime;
+    //       &::after {
+    //         content: "";
+    //         position: absolute;
+    //         top: 0;
+    //         right: 0;
+    //         height: calc(100% + 35px);
+    //         width: 3px;
+    //         background-color: $prime;
 
-            @include maxMediaQuery($md) {
-              height: calc(100% + 20px);
-            }
-          }
-        }
-      }
-    }
+    //         @include maxMediaQuery($md) {
+    //           height: calc(100% + 20px);
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
   }
 }
 

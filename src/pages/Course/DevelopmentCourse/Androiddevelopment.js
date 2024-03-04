@@ -17,7 +17,10 @@ function Androiddevelopment() {
               <div className="col-lg-8 mb-4">
                 <div className="Master_couse_title">
                   About{" "}
-                  <span style={{ color: "#D46615" }}> Android Course</span>
+                  <span style={{ color: "rgb(96 105 124)" }}>
+                    {" "}
+                    Android Course
+                  </span>
                 </div>
                 <div className="Master_course_desc">
                   Developing Android Apps is the foundation of our advanced
@@ -57,6 +60,7 @@ function Androiddevelopment() {
                 <div className="Module rounded p-2 fs-20 text-center alert-primary my-4">
                   Course Modules
                 </div>
+
                 <div id="programme-foundation" class="course-description pt-2">
                   <h4
                     class="alert-dark p-3  fs-16 rounded ps-3"
@@ -65,100 +69,160 @@ function Androiddevelopment() {
                   >
                     Programming Foundation
                   </h4>
-                  <div class="ps-3">
-                    <ul class="course-points">
-                      <li class="fw-bold text-dark bullet-heading">
-                        C Language
-                      </li>
-                      <li>Intro. of C.</li>
-                      <li>History & Structure of C.</li>
-                      <li>Compile and Run Command.</li>
-                      <li>Variable & Data Type.</li>
-                      <li>Constant & Operator</li>
-                      <li>Decision Making & Control Statement.</li>
-                      <li>Local & Global Variable.</li>
-                      <li>Loops (While, Do While & For.)</li>
-                      <li>Array (1D & 2D And Multi-Dimensional)</li>
-                      <li>String</li>
-                      <li>Function</li>
-                    </ul>
-                    <ul class="course-points">
-                      <li class="fw-bold text-dark bullet-heading">
-                        C++ Language
-                      </li>
-                      <li>Intro. of OOP</li>
-                      <li>Declaration of Variable and Data Types.</li>
-                      <li>C++ Character Function.</li>
-                      <li>Control Statement and Array.</li>
-                      <li>Info. of Class and Object.</li>
-                      <li>Inheritance & Polymorphism.</li>
-                      <li>Data Hiding & Encapsulation.</li>
-                      <li>Overloading & Reusability.</li>
-                      <li>Constructor & Destructor.</li>
-                    </ul>
-                    <ul class="course-points">
-                      <li class="fw-bold text-dark bullet-heading">Java</li>
-                      <li>Fundamentals of Java</li>
-                      <li>Looping and Iteration</li>
-                      <li>Wrapper Class & CLA</li>
-                      <li>Java Important Classes</li>
-                      <li>Encapsulation</li>
-                      <li>Inheritance</li>
-                      <li>Abstraction</li>
-                      <li>Polymorphism</li>
-                      <li>Package</li>
-                      <li>Exception Handling</li>
-                    </ul>
-                    <div class="border p-2 px-4 mb-3 rounded d-inline-block">
-                      <div class="text-dark fw-600 fs-15  mb-2 ">
-                        LANGUAGES TO LEARN:
+                  <div>
+                    <div class="accordion accordion-flush" id="faqlist">
+                      <ul class="course-points_1">
+                        <h4 class=" accordion-header fw-bold text-dark bullet-heading ">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-1"
+                          >
+                            C Language
+                          </button>
+                        </h4>
+                        <div
+                          id="faq-content-1"
+                          class="accordion-collapse collapse course-points"
+                          data-bs-parent="#faqlist"
+                        >
+                          <li>Intro. of C.</li>
+                          <li>History & Structure of C.</li>
+                          <li>Compile and Run Command.</li>
+                          <li>Variable & Data Type.</li>
+                          <li>Constant & Operator</li>
+                          <li>Decision Making & Control Statement.</li>
+                          <li>Local & Global Variable.</li>
+                          <li>Loops (While, Do While & For.)</li>
+                          <li>Array (1D & 2D And Multi-Dimensional)</li>
+                          <li>String</li>
+                          <li>Function</li>
+                        </div>
+                      </ul>
+
+                      <ul class="course-points_1">
+                        <h4 class=" accordion-header fw-bold text-dark bullet-heading ">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-2"
+                          >
+                            C++ Language
+                          </button>
+                        </h4>
+                        <div
+                          id="faq-content-2"
+                          class="accordion-collapse collapse course-points"
+                          data-bs-parent="#faqlist"
+                        >
+                          <li>Intro. of OOP</li>
+                          <li>Declaration of Variable and Data Types.</li>
+                          <li>C++ Character Function.</li>
+                          <li>Control Statement and Array.</li>
+                          <li>Info. of Class and Object.</li>
+                          <li>Inheritance & Polymorphism.</li>
+                          <li>Data Hiding & Encapsulation.</li>
+                          <li>Overloading & Reusability.</li>
+                          <li>Constructor & Destructor.</li>
+                          
+                        </div>
+                      </ul>
+
+                      <ul class="course-points_1">
+                        <h4 class=" accordion-header fw-bold text-dark bullet-heading ">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-3"
+                          >
+                            Java
+                          </button>
+                        </h4>
+                        <div
+                          id="faq-content-3"
+                          class="accordion-collapse collapse course-points"
+                          data-bs-parent="#faqlist"
+                        >
+                          <li>Fundamentals of Java</li>
+                          <li>Looping and Iteration</li>
+                          <li>Wrapper Class & CLA</li>
+                          <li>Java Important Classes</li>
+                          <li>Encapsulation</li>
+                          <li>Inheritance</li>
+                          <li>Abstraction</li>
+                          <li>Polymorphism</li>
+                          <li>Package</li>
+                          <li>Exception Handling</li>
+                        </div>
+                      </ul>
+                      <div class="border p-2 px-4 mb-3 rounded d-inline-block">
+                        <div class="text-dark fw-600 fs-15  mb-2 ">
+                          LANGUAGES TO LEARN:
+                        </div>
+                        <p class="mb-2 fs-14">C, C++,JAVA</p>
+                        <div class="text-dark fw-600 fs-15 mb-2 ">
+                          TIME DURATION:
+                        </div>
+                        <p class="mb-2 fs-14">2 Months</p>
                       </div>
-                      <p class="mb-2 fs-14">C, C++,JAVA</p>
-                      <div class="text-dark fw-600 fs-15 mb-2 ">
-                        TIME DURATION:
-                      </div>
-                      <p class="mb-2 fs-14">2 Months</p>
                     </div>
                   </div>
                 </div>
+
                 <div id="core-Android" class="course-description pt-2">
                   <h4
-                    class="alert-dark p-2  fs-16 rounded ps-3"
+                    class="alert-dark p-3  fs-16 rounded ps-3"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
                   >
                     Core Core Android
                   </h4>
-                  <div class="ps-3">
-                    <ul class="course-points">
-                      <li class="fw-bold text-dark bullet-heading">
-                        Application development
-                      </li>
-                      <li>Introduction & Core Building Block.</li>
-                      <li>
-                        UI Widgets like Textview, ImageView, Toast, ImageButton,
-                        Checkbox, and RadioButton.
-                      </li>
-                      <li>
-                        Spinner and Dialog (Alert Dialog, Custom Dialog, Rating
-                        Dialog)
-                      </li>
-                      <li>Listview, Webview, and Gridview.</li>
-                      <li>Intent(Implicit and Explicit Intent).</li>
-                      <li>
-                        How to Create Multiple Activity with Passing Data.
-                      </li>
-                      <li>How to Create Splash Screen and Toolbar.</li>
-                      <li>
-                        Advanced View(Carview, Circleimageview, and Library
-                        integration).
-                      </li>
-                      <li>
-                        Image Loader Library(Glide, Piccaso, and Universal).
-                      </li>
-                      <li>Menu(Options Menu) & Shared Preference.</li>
-                      <li>Image Access (Camera & Gallery).</li>
-                      <li>Recycler view with Model Class.</li>
+                  <div>
+                    <ul class="course-points_1">
+                      <h4 class=" accordion-header fw-bold text-dark bullet-heading ">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faq-content-4"
+                        >
+                          Application development
+                        </button>
+                      </h4>
+                      <div
+                        id="faq-content-4"
+                        class="accordion-collapse collapse course-points"
+                        data-bs-parent="#faqlist"
+                      >
+                        <li>Introduction & Core Building Block.</li>
+                        <li>
+                          UI Widgets like Textview, ImageView, Toast,
+                          ImageButton, Checkbox, and RadioButton.
+                        </li>
+                        <li>
+                          Spinner and Dialog (Alert Dialog, Custom Dialog,
+                          Rating Dialog)
+                        </li>
+                        <li>Listview, Webview, and Gridview.</li>
+                        <li>Intent(Implicit and Explicit Intent).</li>
+                        <li>
+                          How to Create Multiple Activity with Passing Data.
+                        </li>
+                        <li>How to Create Splash Screen and Toolbar.</li>
+                        <li>
+                          Advanced View(Carview, Circleimageview, and Library
+                          integration).
+                        </li>
+                        <li>
+                          Image Loader Library(Glide, Piccaso, and Universal).
+                        </li>
+                        <li>Menu(Options Menu) & Shared Preference.</li>
+                        <li>Image Access (Camera & Gallery).</li>
+                        <li>Recycler view with Model Class.</li>
+                      </div>
                     </ul>
                     <div class="border p-2 px-3 rounded d-inline-block">
                       <h6 class="text-dark fs-15">LANGUAGES TO LEARN:</h6>
@@ -172,81 +236,129 @@ function Androiddevelopment() {
                     </div>
                   </div>
                 </div>
+
                 <div id="advance-Android" class="course-description pt-4">
                   <h4
-                    class="alert-dark p-2  fs-16 rounded ps-3"
+                    class="alert-dark p-3  fs-16 rounded ps-3"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
                   >
                     Advance Android
                   </h4>
-                  <div class="ps-3">
-                    <ul class="course-points">
-                      <li class="fw-bold text-dark bullet-heading">
-                        Advance Android
-                      </li>
-                      <li>Advance Dialog(Datepicker and Timepicker dialog).</li>
-                      <li>Fragment(Static fragment and Dynamic fragment).</li>
-                      <li>Simple Viewpager(Image Slider).</li>
-                      <li>Tab layout(Viewpager with fragment).</li>
-                      <li>
-                        Navigation Drawer(Default and Custom Navigation Drawer).
-                      </li>
-                      <li>SQLite Database(Crud Operation).</li>
-                      <li>External Database.</li>
-                      <li>
-                        API Calling(JSON Parsing, Volley library, Get and Post
-                        Method).
-                      </li>
-                      <li>
-                        Retrofit(API Calling Get & Post Method with Gson).
-                      </li>
-                      <li>
-                        Firebase(Firebase Auth, Firebase Database, Firebase
-                        Storage).
-                      </li>
-                      <li>Runtime Permission.</li>
-                      <li>
-                        Social Media Integration(Facebook login and Gmail
-                        login).
-                      </li>
-                      <li>
-                        Apk Generate(Build Apk, SignApk, Create js file, Create
-                        Bundle).
-                      </li>
+                  <div>
+                    <ul class="course-points_1">
+                      <h4 class=" accordion-header fw-bold text-dark bullet-heading ">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faq-content-5"
+                        >
+                          Advance Android
+                        </button>
+                      </h4>
+                      <div
+                        id="faq-content-5"
+                        class="accordion-collapse collapse course-points"
+                        data-bs-parent="#faqlist"
+                      >
+                        <li>
+                          Advance Dialog(Datepicker and Timepicker dialog).
+                        </li>
+                        <li>Fragment(Static fragment and Dynamic fragment).</li>
+                        <li>Simple Viewpager(Image Slider).</li>
+                        <li>Tab layout(Viewpager with fragment).</li>
+                        <li>
+                          Navigation Drawer(Default and Custom Navigation
+                          Drawer).
+                        </li>
+                        <li>SQLite Database(Crud Operation).</li>
+                        <li>External Database.</li>
+                        <li>
+                          API Calling(JSON Parsing, Volley library, Get and Post
+                          Method).
+                        </li>
+                        <li>
+                          Retrofit(API Calling Get & Post Method with Gson).
+                        </li>
+                        <li>
+                          Firebase(Firebase Auth, Firebase Database, Firebase
+                          Storage).
+                        </li>
+                        <li>Runtime Permission.</li>
+                        <li>
+                          Social Media Integration(Facebook login and Gmail
+                          login).
+                        </li>
+                        <li>
+                          Apk Generate(Build Apk, SignApk, Create js file,
+                          Create Bundle).
+                        </li>
+                      </div>
                     </ul>
-                    <ul class="course-points">
-                      <li class="fw-bold text-dark bullet-heading">Kotlin</li>
-                      <li>Figma</li>
-                      <li>Data type, Constant & Variable.</li>
-                      <li>Control Structure & Looping.</li>
-                      <li>Function (Create a Function).</li>
-                      <li>Class and Object</li>
-                      <li>Android View.</li>
-                      <li>All Events (Click Event, Long ClickEvent).</li>
-                      <li>Recycler view with Model Class.</li>
-                      <li>SQLite Database (Crud Operation).</li>
-                      <li>Retrofit (Get and Post Method with Gson)</li>
+
+                    <ul class="course-points_1">
+                      <h4 class=" accordion-header fw-bold text-dark bullet-heading ">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faq-content-6"
+                        >
+                          Kotlin
+                        </button>
+                      </h4>
+                      <div
+                        id="faq-content-6"
+                        class="accordion-collapse collapse course-points"
+                        data-bs-parent="#faqlist"
+                      >
+                        <li>Figma</li>
+                        <li>Data type, Constant & Variable.</li>
+                        <li>Control Structure & Looping.</li>
+                        <li>Function (Create a Function).</li>
+                        <li>Class and Object</li>
+                        <li>Android View.</li>
+                        <li>All Events (Click Event, Long ClickEvent).</li>
+                        <li>Recycler view with Model Class.</li>
+                        <li>SQLite Database (Crud Operation).</li>
+                        <li>Retrofit (Get and Post Method with Gson)</li>
+                      </div>
                     </ul>
-                    <ul class="course-points">
-                      <li class="fw-bold text-dark bullet-heading">
-                        UI / UX Design
-                      </li>
-                      <li>Adobe Figma</li>
-                      <li>Introduction of Figma</li>
-                      <li>
-                        Select, Rectangle, Ellipse, Line, Polygon & Text tools.
-                      </li>
-                      <li>
-                        Pen Tool, Artboard Tool, Zoom Tool Appearance Option.
-                      </li>
-                      <li>
-                        Clipping Mask, Repeat Grid, Scrolling Option Working
-                        with Assets and Layer, Grouping and Ungrouping
-                      </li>
-                      <li>Using Adobe Figma Kits & Plugins.</li>
-                      <li>Sharing your Adobe Figma Designs.</li>
-                      <li>Viewing Design on Mobile.</li>
+
+                    <ul class="course-points_1">
+                      <h4 class=" accordion-header fw-bold text-dark bullet-heading ">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faq-content-7"
+                        >
+                          UI / UX Design
+                        </button>
+                      </h4>
+                      <div
+                        id="faq-content-7"
+                        class="accordion-collapse collapse course-points"
+                        data-bs-parent="#faqlist"
+                      >
+                        <li>Adobe Figma</li>
+                        <li>Introduction of Figma</li>
+                        <li>
+                          Select, Rectangle, Ellipse, Line, Polygon & Text
+                          tools.
+                        </li>
+                        <li>
+                          Pen Tool, Artboard Tool, Zoom Tool Appearance Option.
+                        </li>
+                        <li>
+                          Clipping Mask, Repeat Grid, Scrolling Option Working
+                          with Assets and Layer, Grouping and Ungrouping
+                        </li>
+                        <li>Using Adobe Figma Kits & Plugins.</li>
+                        <li>Sharing your Adobe Figma Designs.</li>
+                        <li>Viewing Design on Mobile.</li>
+                      </div>
                     </ul>
                     <div class="border p-2 px-3 rounded d-inline-block">
                       <h6 class="text-dark fs-15">LANGUAGES TO LEARN:</h6>
@@ -260,56 +372,85 @@ function Androiddevelopment() {
                     </div>
                   </div>
                 </div>
+
                 <div id="aso-earning" class="course-description pt-4">
                   <h4
-                    class="alert-dark p-2  fs-16 rounded ps-3"
+                    class="alert-dark p-3  fs-16 rounded ps-3"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
                   >
                     Aso & Earning & PHP API
                   </h4>
-                  <div class="ps-3">
-                    <ul class="course-points">
-                      <li class="fw-bold text-dark bullet-heading">
-                        Aso & Earning
-                      </li>
-                      <li>Introduction of ASO</li>
-                      <li>Difference between ASO & SEO.</li>
-                      <li>Various Plugins.</li>
-                      <li>How to create an account on Admob.</li>
-                      <li>Admob with android studio.</li>
-                      <li>Generate signed Apk & Proguard.</li>
-                      <li>Facebook Ads.</li>
-                      <li>Facebook Ads with Android Studio.</li>
-                      <li>Keyword Optimization.</li>
-                      <li>Keyword Planner.</li>
-                      <li>Onpage Aso.</li>
-                      <li>Offpage Aso.</li>
-                      <li>Color Combination.</li>
-                      <li>Google Ads.</li>
-                      <li>Blogger.</li>
-                      <li>Review Option.</li>
-                      <li>How to Upload Apps in the Play store.</li>
-                      <li>Grammar &amp; Plagiarism Checker.</li>
-                      <li>Upwork & Freelancer.</li>
-                      <li>Application Reverse Engineering.</li>
+                  <div>
+                    <ul class="course-points_1">
+                      <h4 class=" accordion-header fw-bold text-dark bullet-heading ">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faq-content-8"
+                        >
+                          Aso & Earning
+                        </button>
+                      </h4>
+                      <div
+                        id="faq-content-8"
+                        class="accordion-collapse collapse course-points"
+                        data-bs-parent="#faqlist"
+                      >
+                        <li>Introduction of ASO</li>
+                        <li>Difference between ASO & SEO.</li>
+                        <li>Various Plugins.</li>
+                        <li>How to create an account on Admob.</li>
+                        <li>Admob with android studio.</li>
+                        <li>Generate signed Apk & Proguard.</li>
+                        <li>Facebook Ads.</li>
+                        <li>Facebook Ads with Android Studio.</li>
+                        <li>Keyword Optimization.</li>
+                        <li>Keyword Planner.</li>
+                        <li>Onpage Aso.</li>
+                        <li>Offpage Aso.</li>
+                        <li>Color Combination.</li>
+                        <li>Google Ads.</li>
+                        <li>Blogger.</li>
+                        <li>Review Option.</li>
+                        <li>How to Upload Apps in the Play store.</li>
+                        <li>Grammar &amp; Plagiarism Checker.</li>
+                        <li>Upwork & Freelancer.</li>
+                        <li>Application Reverse Engineering.</li>
+                      </div>
                     </ul>
-                    <ul class="course-points">
-                      <li class="fw-bold text-dark bullet-heading">PHP API</li>
-                      <li>Introduction of PHP & Server</li>
-                      <li>File uploading in the server</li>
-                      <li>Database Connectivity</li>
-                      <li>CRUD operations</li>
-                      <li>API Introduction</li>
-                      <li>HTTP Request methods</li>
-                      <li>User authentication APIs</li>
-                      <li>CRUD APIs</li>
-                      <li>Admin Panel management</li>
-                      <li>Category and subcategory handling in DB </li>
-                      <li>File uploading, alerts, and dialogs</li>
-                      <li>Included in Career & Master Course</li>
-                      <li>PD (Included)</li>
-                      <li>Entrepreneur & Freelancing (Included)</li>
+                    <ul class="course-points_1">
+                      <h4 class=" accordion-header fw-bold text-dark bullet-heading ">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faq-content-9"
+                        >
+                          PHP API
+                        </button>
+                      </h4>
+                      <div
+                        id="faq-content-9"
+                        class="accordion-collapse collapse course-points"
+                        data-bs-parent="#faqlist"
+                      >
+                        <li>Introduction of PHP & Server</li>
+                        <li>File uploading in the server</li>
+                        <li>Database Connectivity</li>
+                        <li>CRUD operations</li>
+                        <li>API Introduction</li>
+                        <li>HTTP Request methods</li>
+                        <li>User authentication APIs</li>
+                        <li>CRUD APIs</li>
+                        <li>Admin Panel management</li>
+                        <li>Category and subcategory handling in DB </li>
+                        <li>File uploading, alerts, and dialogs</li>
+                        <li>Included in Career & Master Course</li>
+                        <li>PD (Included)</li>
+                        <li>Entrepreneur & Freelancing (Included)</li>
+                      </div>
                     </ul>
                     <div class="border p-2 px-3 rounded d-inline-block">
                       <h6 class="text-dark fs-15">

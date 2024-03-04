@@ -21,8 +21,7 @@ const Service = () => {
             title: `Professional IT training `,
             dec: `To provide you the abilities and knowledge needed to succeed in the quickly changing field of information technology, 
             our institute presents industry-relevant training programs`,
-            subdec: ` Our courses are meant to serve learners interested in a wide range
-            of IT sectors, including developers State-of-the-Art Facilities = Study in a conducive learning environment equipped with the 
+            subdec: `and including developers Facilities Study in a conducive learning environment equipped with the 
              latest software, hardware, and resources.Access dedicated labs, libraries, and online materials to support your learning journey.`
         },
         {

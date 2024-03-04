@@ -1,10 +1,10 @@
 import React from "react";
 import PageTitle from "../Common/PageTitle";
 import OurUniversity from "../About/OurUniversity";
-import Rank from "../About/CEO";
+import Rank from "../About/Rank";
 import OurCampus from "../About/OurCampus";
 import Company from "../About/Company";
-// import CEO from '../About/CEO';
+// import CEO from "../About/CEO";
 
 const About = () => {
   return (

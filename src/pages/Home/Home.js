@@ -1,5 +1,5 @@
 import Rank from "../About/Rank";
-import OurAbout from "../Home/OurCourse";
+import OurAbout from "../Home/OurAbout";
 import OurCourse from "../Home/OurCourse";
 import Rating from "../Home/Rating";
 import Service from "../Home/Service";
@@ -17,18 +17,17 @@ const Home = () => {
       <section id="aboutSection">
         <OurAbout />
       </section>
-      <section id="rankSection">
-        <Rank />
-      </section>
       <section id="facilitySection">
         <Facility />
+      </section>
+      <section id="rankSection">
+        <Rank />
       </section>
       <section id="ourCourseSection">
         <OurCourse />
       </section>
       <Company />
       <Rating />
-      
     </div>
   );
 };

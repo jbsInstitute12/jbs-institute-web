@@ -142,11 +142,12 @@ function InqueryForm() {
         <>
             <div className="inqury-form-outer">
                 <form method="POST" onSubmit={handleSubmit}>
+
                     <div className="col-lg-12">
                         <label for="firstname" class="form-label">First Name</label>
                         <div className="input-group mb-3">
                             <span className="input-group-text"><i class="fas fa-user"></i></span>
-                            <input type="text"  className="form-control_1" placeholder="First Name"
+                            <input type="text" className="form-control_1" placeholder="First Name"
                                 name="firstName"
                                 id="firstName"
                                 value={formData.firstName}
@@ -161,7 +162,7 @@ function InqueryForm() {
                         <div className="input-group mb-3">
                             <span className="input-group-text"><i class="fas fa-user"></i></span>
                             <input type="text"
-                                className="form-control"
+                                className="form-control_1"
                                 placeholder="Last Name"
                                 name="lastName"
                                 id="lastName"
@@ -221,7 +222,7 @@ function InqueryForm() {
                             <span className="input-group-text"><i className="fas fa-mobile"></i></span>
                             <input
                                 type="text"
-                                className="form-control"
+                                className="form-control_1"
                                 placeholder="Mobile No"
                                 name="mobileNumber"
                                 id="mobileNumber"
@@ -241,7 +242,7 @@ function InqueryForm() {
                             <span className="input-group-text"><i className="far fa-envelope"></i></span>
                             <input
                                 type="email"
-                                className="form-control"
+                                className="form-control_1"
                                 placeholder="Email id"
                                 name="email"
                                 id="email"

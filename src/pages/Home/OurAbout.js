@@ -4,17 +4,9 @@ import ItPic2 from "../../assets/images/Home/About/About2.png";
 import ItPic3 from "../../assets/images/Home/About/About3.png";
 import ItPic4 from "../../assets/images/Home/About/About4.png";
 const OurAbout = () => {
-  document.addEventListener("scroll", function () {
-    var element = document.querySelector(".mainAbout");
-    var scrollPosition = window.scrollY;
-    if (scrollPosition > 650) {
-      element?.classList.add("activeAnime");
-    }
-  });
-
   return (
     <>
-      <div className="mainAbout">
+      <div className="mainAbout ">
         <div className="container">
           <div className="startAbout">
             <div className="row">
@@ -42,18 +34,18 @@ const OurAbout = () => {
                 <div className="photoSide p40-sm-left p20-left animate__animated">
                   <div className="itPhotos d-flex justify-content-center">
                     <div className="imgs img1 hw-xl-200 hw-lg-150 hw-md-130 hw-sm-100  hw-smm-140 hw-90 m3-md m2">
-                      <img src={ItPic1} alt="itImage" />
+                      <img className="img-1" src={ItPic1} alt="itImage" />
                     </div>
                     <div className="imgs img2 hw-xl-200 hw-lg-150 hw-md-130 hw-sm-100  hw-smm-140 hw-90 m3-md m2">
-                      <img src={ItPic2} alt="itImage" />
+                      <img className="img-1" src={ItPic2} alt="itImage" />
                     </div>
                   </div>
                   <div className="itPhotos d-flex m40-md-left">
                     <div className="imgs img3 hw-xl-200 hw-lg-150 hw-md-130 hw-sm-100  hw-smm-140 hw-90 m3-md m2">
-                      <img src={ItPic3} alt="itImage" />
+                      <img className="img-1" src={ItPic3} alt="itImage" />
                     </div>
                     <div className="imgs img4 hw-xl-200 hw-lg-150 hw-md-130 hw-sm-100  hw-smm-140 hw-90 m3-md m2">
-                      <img src={ItPic4} alt="itImage" />
+                      <img className="img-1" src={ItPic4} alt="itImage" />
                     </div>
                   </div>
                 </div>
